@@ -11,6 +11,35 @@ body {
 }
 
 header {
+  .profile {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+// section
+section {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}
+.profile1 {
+  width: 70px;
+  height: 70px;
+}
+.list-group-item {
+  border: none;
+}
+section {
+  height: 370px;
+}
+
+.card-dms {
+  display: none;
+  transition: margin-top 1s;
+}
+
+// Aside
+aside {
   font-family: "Dosis", sans-serif;
   font-size: 22px;
   font-weight: 500;
@@ -31,6 +60,10 @@ header {
     }
   }
 }
+.menu-dms {
+  margin-left: 300px;
+  transition: margin-left 1s;
+}
 .hamburger-menu {
   cursor: pointer;
   padding-top: 2px;
@@ -38,7 +71,7 @@ header {
   height: 41px;
   border-radius: 5px;
   align-items: center;
-  margin-left: 300px;
+  transition: margin-left 1s;
 
   .line {
     width: 28px;
@@ -48,13 +81,16 @@ header {
     transition: all 1s;
   }
 }
+.about-links {
+  li {
+    cursor: pointer;
+  }
+}
 .bar-board {
   width: 300px;
   margin-left: -300px;
   height: 100vh;
   background-color: #262626;
-  border-bottom-right-radius: 80px;
-  transition: margin-left 1s;
 }
 .bar-hide {
   margin-left: 0px;

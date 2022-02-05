@@ -12,51 +12,102 @@
 </head>
 
 <body>
-    <header class="fs-5">
-
-        <nav class="bar-board">
-            <div class="hamburger-menu ">
+    <header class="container-fluid bg-dark py-2">
+        <div class="d-flex">
+            <div class="hamburger-menu">
                 <div class="line line-1 mx-auto mt-2 bg-warning w-75"></div>
                 <div class="line line-2 mx-auto mt-2 bg-warning w-75"></div>
                 <div class="line line-3 mx-auto mt-2 bg-warning w-75"></div>
             </div>
 
-            <ul class="nav-list d-flex flex-column justify-content-between">
-                <li class="nav-item list-unstyled">
-                    <a href="#" class="nav-link text-decoration-none">HOME</a>
-                </li>
-                <li class="nav-item dashboard list-unstyled">
-                    <a href="#" class="nav-link nav-link-about text-decoration-none">ABOUT<i
-                            class="fas fa-chevron-down mb-1 pe-1 ms-5 fs-6"></i></a>
-
-                    <ul class="about-links">
-                        <li class="list-unstyled"><a href="" class="text-decoration-none">Dashboard 1</a></li>
-                        <li class="list-unstyled"><a href="" class="text-decoration-none">Dashboard 2</a></li>
-                        <li class="list-unstyled"><a href="" class="text-decoration-none">Dashboard 3</a></li>
-                        <li class="list-unstyled"><a href="" class="text-decoration-none">Dashboard 4</a></li>
-                        <li class="list-unstyled"><a href="" class="text-decoration-none">Dashboard 5</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item list-unstyled">
-                    <a href="#" class="nav-link text-decoration-none">NEWS</a>
-                </li>
-                <li class="nav-item list-unstyled">
-                    <a href="#" class="nav-link text-decoration-none">GALLERY</a>
-                </li>
-                <li class="nav-item list-unstyled">
-                    <a href="#" class="nav-link text-decoration-none">EVENTS</a>
-                </li>
-                <li class="nav-item list-unstyled">
-                    <a href="#" class="nav-link text-decoration-none">PRICING</a>
-                </li>
-                <li class="nav-item list-unstyled">
-                    <a href="#" class="nav-link text-decoration-none">CONTACT</a>
-                </li>
+            <ul class="ms-auto">
+                <li><a href="javascript:void(0)"><img src="./images/profile.jpg" alt=""
+                            class="profile rounded-circle mt-2 "></a>
             </ul>
-        </nav>
-
+        </div>
     </header>
 
+
+    <div class="d-flex">
+        <aside class="fs-5 mt-n5">
+
+            <nav class="bar-board">
+
+
+                <ul class="nav-list d-flex flex-column justify-content-between">
+                    <li class="nav-item list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link text-decoration-none">HOME</a>
+                    </li>
+                    <li class="nav-item dashboard list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link nav-link-about text-decoration-none">ABOUT <i
+                                class="fas fa-angle-left mb-1 pe-1 ms-5 fs-5"></i></a>
+
+                        <ul class="about-links">
+                            <li class="list-unstyled"><a href="" class="w-100 text-decoration-none">Dashboard 1</a></li>
+                            <li class="list-unstyled"><a href="" class="w-100 text-decoration-none">Dashboard 2</a></li>
+                            <li class="list-unstyled"><a href="" class="w-100 text-decoration-none">Dashboard 3</a></li>
+                            <li class="list-unstyled"><a href="" class="w-100 text-decoration-none">Dashboard 4</a></li>
+                            <li class="list-unstyled"><a href="" class="w-100 text-decoration-none">Dashboard 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link text-decoration-none">NEWS</a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link text-decoration-none">GALLERY</a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link text-decoration-none">EVENTS</a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link text-decoration-none">PRICING</a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                        <a href="javascript:void(0)" class="nav-link text-decoration-none">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+
+        <section class="ms-auto card card-dms w-25">
+
+            <div class="d-flex mx-auto mb-2 bg-primary w-100">
+                <img src="./images/profile.jpg" alt="" class="profile1 rounded-circle ">
+                <div class="ms-3">
+                    <a class="text-light mt-1 text-decoration-none">My Profile</a> <br>
+                    <a class="text-light m-0 text-decoration-none">Twinkle Gohil Chauhan</a>
+                </div>
+            </div>
+
+            <ul class="ms-5 list-group mx-auto w-75">
+                <li class="list-unstyled list-group-item mx-auto border-none">
+                    <a href="#" class="text-decoration-none">My Profile</a>
+                </li>
+                <li class="list-unstyled list-group-item mx-auto">
+                    <a href="#" class="text-decoration-none">My Balance</a>
+                </li>
+                <li class="list-unstyled list-group-item mx-auto">
+                    <a href="#" class="text-decoration-none">Inbox</a>
+                </li>
+                <li class="list-unstyled list-group-item mx-auto">
+                    <a href="#" class="text-decoration-none">Account Setting</a>
+                </li>
+                <li class="list-unstyled list-group-item mx-auto">
+                    <a href="#" class="text-decoration-none">Logout</a>
+                </li>
+
+            </ul>
+            </li>
+            <button class="w-100 rounded-pill btn-lg btn-primary border-none">View profile</button>
+
+        </section>
+    </div>
+
+    <footer class="container-fluid mt-n4">
+        <p class="text-warning text-center"> All Rights Reserved by Admin</p>
+    </footer>
 
     <script src="libs/jquery-3.6.0.min.js"></script>
     <script src="libs/js/bootstrap.bundle.min.js"></script>
