@@ -20,5 +20,6 @@ $(".nav-link-about").click(function(){
 
 $(".profile").click(function(){
     $(".card").toggleClass("card-dms")
-    
+    $(".card").css( {transform: "rotateY(360deg)", transition: "transform 3s"})
+
 })
